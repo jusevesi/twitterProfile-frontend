@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'Frontend-zemoga';
+  constructor(private router: Router) { }
+  public agregarLibros(){
+    localStorage.clear();
+    this.router.navigateByUrl("/");
+  }
 }

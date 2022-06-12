@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="timeline">
+        <img src={{profile.profileImage}} alt="">
+        <div class="tweets">
+            <h3>{{profile.name}} Timeline</h3>
+            <hr />
+            <div class="list">
+                <ul>
+                    <li *ngFor="let tweet of profile.twits">{{tweet.text}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="experience">
+        <h1>{{profile.name}}</h1>
+        <div class="work">
+            <h2>My Work Experience</h2>
+            <hr />
+            <p>{{profile.experience}} </p>
+        </div>
+    </div>
+</div>

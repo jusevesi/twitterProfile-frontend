@@ -1,0 +1,51 @@
+
+.container {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    .timeline {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            border-radius: 5px;
+            margin-bottom: 30px;
+            width: 300px;
+            height: 300px;
+        }
+
+        .tweets {
+            background-color: white;
+            border-radius: 5px;
+            width: 300px;
+            padding: 5px;
+            h3{
+                margin-left: 15px;
+            }
+            .list{
+                ul{
+                    li{
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .experience {
+        flex-grow: 4;
+        h1{
+            margin-left: 20px;
+            font-size: 50px;
+        }
+        .work {
+            background-color: white;
+            padding: 30px;
+            border-radius: 5px;
+            width: 80%;
+            height: 70%;
+        }
+
+    }
+}
