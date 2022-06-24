@@ -20,3 +20,7 @@ npm start
 ```sh
 http://localhost:4200/
 ```
+Note: You can check the application working in heroku in the following link:
+```sh
+https://meridian-test-frontend.herokuapp.com/products
+```
