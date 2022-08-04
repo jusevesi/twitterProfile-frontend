@@ -1,4 +1,4 @@
-# Test Zemoga Frontend
+# TwitterProfile Frontend
 
 This repository contains the backend in node.js for the Twitter Profile development test.
 
